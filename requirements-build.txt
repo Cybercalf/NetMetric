@@ -1,0 +1,6 @@
+# Complete runtime + packaging + packaged-executable verification environment.
+-r requirements.txt
+pyinstaller==6.22.3; sys_platform == "win32"
+# Directly imported by tools/verify_build.py; declare it even though PyInstaller
+# also currently installs it transitively on Windows.
+pefile==2024.8.26; sys_platform == "win32"

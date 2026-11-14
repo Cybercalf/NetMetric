@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-labelledby="title description">
+  <title id="title">NetMetric</title>
+  <desc id="description">Three green network nodes linked on a blue rounded square.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102b4e"/>
+      <stop offset="1" stop-color="#104971"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="17" fill="url(#background)"/>
+  <path d="M50 36V52H27V63M50 52H73V63" fill="none" stroke="#e1f0ff" stroke-width="4.4"/>
+  <g fill="#36d6ac">
+    <rect x="40" y="20" width="20" height="18"/>
+    <rect x="17" y="61" width="20" height="18"/>
+    <rect x="63" y="61" width="20" height="18"/>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+# Runtime dependencies for Windows x64 / CPython 3.11+.
+# Provides win32com, pythoncom and pywintypes; no separate "wmi" package is used.
+# tkinter/ttk and ctypes come from Python; install Python with Tcl/Tk support.
+pywin32==312; sys_platform == "win32"
